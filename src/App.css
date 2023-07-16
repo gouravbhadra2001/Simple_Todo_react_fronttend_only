@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+
+:root{
+  --bg-prim: rgba(250, 243, 243, 0.913);
+  --bg-sec: rgba(0, 0, 0, 0.506);
+  --bg-sec-dark: rgba(0, 0, 0, 0.82);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.rotate-45{
+  transform: rotate(45deg);
+  transition: transform 0.5s;
+
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rotate-90{
+  transform: rotate(90deg);
+  transition: transform 0.5s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.custom-bg-card{
+  background-color: var(--bg-prim);
+  display: grid;
+  place-content: center;
+}
+
+.fab{
+  background-color: var(--bg-prim);
+}
+.fab:hover{
+  background-color: var(--bg-sec-dark);
   color: white;
+ border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.header-font{
+  font-family: 'Lora', serif;;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nothing-font{
+  font-family: 'Exo 2', sans-serif;
+  color: rgb(241, 19, 19)
 }
+
+.winhead-font{
+  font-family: 'Righteous', cursive;
+}
+
+.btn-add-font{
+  font-family: 'Alice', serif;
+}
+
+.btn-del-font{
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Antic Slab', serif;
+}
+
+.btn-list-font{
+  font-family: 'Yeseva One', cursive;
+  font-size: large;
+  font-weight: bold
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
