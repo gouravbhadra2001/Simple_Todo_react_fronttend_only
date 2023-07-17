@@ -77,7 +77,7 @@ function App() {
 
       <div className="fixed-bottom d-flex justify-content-end mb-3 me-3">
         <button
-          className={`btn custom-bg-card fab shadow rounded-5 btn-lg border ${isRotated ? "rotate-45" : "rotate-90"}`}
+          className={`btn custom-bg-card fab shadow rounded-5 btn-lg bordert ${isRotated ? "rotate-45" : "rotate-90"}`}
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseWidthExample"
