@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Simple_Todo_react_fronttend_only/static/css/main.6a34480f.css",
+    "main.js": "/Simple_Todo_react_fronttend_only/static/js/main.3835886d.js",
+    "static/js/787.c52aaeeb.chunk.js": "/Simple_Todo_react_fronttend_only/static/js/787.c52aaeeb.chunk.js",
+    "index.html": "/Simple_Todo_react_fronttend_only/index.html",
+    "main.6a34480f.css.map": "/Simple_Todo_react_fronttend_only/static/css/main.6a34480f.css.map",
+    "main.3835886d.js.map": "/Simple_Todo_react_fronttend_only/static/js/main.3835886d.js.map",
+    "787.c52aaeeb.chunk.js.map": "/Simple_Todo_react_fronttend_only/static/js/787.c52aaeeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a34480f.css",
+    "static/js/main.3835886d.js"
+  ]
+}
